@@ -1,0 +1,21 @@
+##Code Book
+
+These are the variables used and created in the script
+
+actFact: factor consisting of the 6 activity levels, used in averaging the final data
+data.lean: subset of data consisting of data.mean(data of means) and data.std(data of std deviations)
+data.mean: see above
+data.std: see above
+data.X: the data frame consisting of binding the X train and test sets
+data.X_test: the test set
+data.X_train: train set
+data.Y: the data frame consisting of binding the Y train and test sets. This set represents the activities with numbers (1:6)
+data.Y_test: the test set
+data.Y_train: train set
+datamean: data frame with the summarized variables by activity (actFact) and by subject (subFact)
+labels: the names of the variables
+subFact: factor consisting of the 30 subjects' levels, used in averaging the final data
+subject.train: subject rows for train set
+subject.test: subject rows for test set
+subject: total subjects binding subject.train and subject.test
+
