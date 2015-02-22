@@ -33,8 +33,8 @@ data.Y[data.Y=="6"]<- "laying"
 
 #Extracting columns that have "mean" or "std" in their colnames
 
-data.mean<- data[, grep("mean", names(data))]
-data.std<- data[, grep("std", names(data))]
+data.mean<- data.X[, grep("mean", names(data.X))]
+data.std<- data.X[, grep("std", names(data.X))]
 data.lean<-cbind(subject,data.Y,data.mean, data.std)
 
 #Now, to create the independent data.frame
